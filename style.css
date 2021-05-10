@@ -1,0 +1,52 @@
+body,html {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+
+.app-title {
+    text-align: center;
+}
+
+#app {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.app-container {
+    display: flex;
+}
+
+.gallery {
+    padding: 10px;
+    width: 50%;
+}
+
+.details {
+    width: 50%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    height: 80vh;
+}
+
+.filter-list {
+    display: flex;
+}
+
+.filter-list-item {
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.clickable-element {
+    cursor: pointer;
+}
+
+.clickable-element:hover {
+    background-color: antiquewhite;
+}
