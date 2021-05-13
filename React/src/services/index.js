@@ -1,0 +1,1 @@
+export { SwapiService } from "./SwapiService";
